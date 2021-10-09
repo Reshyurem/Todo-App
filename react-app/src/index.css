@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-bottom: grey solid 1px;
+}
+
+.navbar > h1 {
+  font-size: xx-large;
+  color: #f00;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+
+a.active {
+  color: #f00;
+}
+
+.navbar > .links > a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: large;
+  color: rgb(153, 153, 153);
+}
+
+.navbar > .links > a:hover {
+  color: #f00;
+}
+
+.login {
+  display: flex;
+  margin-left: auto;
+  align-content: center;
+}
+
+.navbar > .links > .userID {
+  font-size: larger;
+  color: #f00;
+}
+
+.login > #loginID {
+  margin: 5px;
+}
